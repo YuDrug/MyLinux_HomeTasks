@@ -1,0 +1,131 @@
+   0 cd /
+   1 mkdir -p /home/user/start/
+   2 touch /home/user/start/1.txt
+   3 echo Start > 1.txt
+   4 echo Hello Echo Start > 1.txt
+   5 cd /home/user/start/
+   6 date >> 1.txt
+   7 cat 1.txt
+   8 echo Hello Start > 1.txt
+   9 cat 1.txt
+  10 date >> 1.txt
+  11 cat 1.txt
+  12 cd //
+  13 mkdir -p /opt/task/
+  14 mv /home/user/start/1.txt /opt/task/start.txt
+  15 cd /opt/task/
+  16 tree
+  17 cd /
+  18 ls -a
+  19 cd /opt/task/
+  20 echo ls -1
+  21 cd //
+  22 tree
+  23 pwd
+  24 cd /opt/
+  25 cd task
+  26 ls
+  27 cat /etc/group | wc-
+  28 cat /etc/group | wc -
+  29 cat start.txt
+  30 cd /
+  31 la
+  32 ls
+  33 ls -a
+  34 cd /opt/task/
+  35 ls
+  36 echo bin media run usr start.txt
+  37 echo .ash_history dev mnt sbin var start.txt
+  38 echo .fscmd etc opt srv start.txt
+  39 echo preload2 home proc sys start.txt
+  40 cat start.txt
+  41 echo bin media run usr > start.txt
+  42 cat start.txt
+  43 cd /
+  44 ls -a
+  45 cd /opt/
+  46 ls -a
+  47 cd /
+  48 ls
+  49 ls -a
+  50 cd /opt/task/
+  51 echo 1.txt lib root tmp bin media run usr ash_history dev mnt sbin var fscmd etc opt srv preload home proc
+  52 echo 1.txt lib root tmp bin media run usr ash_history dev mnt sbin var fscmd etc opt srv preload home proc ?
+  53 > start.txt
+  54 cat start.txt
+  55 ls
+  56 cat start.txt
+  57 date > start.txt
+  58 cat start.txt
+  59 echo Hello Start start.txt
+  60 cat start.txt
+  61 echo > Hello Start start.txt
+  62 cat start.txt
+  63 echo "Hello Start" > start.txt
+  64 cat start.txt
+  65 echo "Line#01 from root dir" > start.txt
+  66 cat start.txt
+  67 clear
+  68 ls -a
+  69 cat start.txt
+  70 cd /
+  71 ls -a
+  72 cat 1.txt
+  73 rm 1.txt
+  74 ls -a
+  75 cd /opt/task/
+  76 ls
+  77 cat start.txt
+  78 echo .preload2 lib root tmp sys proc home .fscmd ash_history etc opt srv > start.txt
+  79 cat start.txt
+  80 clear
+  81 date > start.txt
+  82 cat start.txt
+  83 cd //
+  84 cp /opt/task /tmp/tesnew/
+  85 cd /tmp/testnew
+  86 mkdir /tmp/testnew
+  87 cp /opt/task/ /tmp/testnew/
+  88 cd /tmp/testnew
+  89 tree
+  90 cp /opt/task /tmp/testnew/
+  91 cp //help
+  92 cp -R /opt/task /tmp/testnew/
+  93 tree
+  94 echo Readme > statrt.txt
+  95 cat start.txt
+  96 tree
+  97 cd task
+  98 tree
+  99 cat start.txt
+ 100 echo Readme > statrt.txt
+ 101 cat start.txt
+ 102 echo "Readme" > statrt.txt
+ 103 cat start.txt
+ 104 cd //
+ 105 cd home/
+ 106 ls
+ 107 cd user/
+ 108 ls
+ 109 cd start/
+ 110 ls
+ 111 tree
+ 112 cd ..
+ 113 ls -a
+ 114 cd ..
+ 115 ls -a
+ 116 cd ..
+ 117 ls
+ 118 ls -a
+ 119 cd usr/
+ 120 ls
+ 121 cd ..
+ 122 cd home/
+ 123 ls -a
+ 124 cd user/
+ 125 ls -a
+ 126 cd start/
+ 127 ls -a
+ 128 rm -rf /opt/task
+ 129 history
+ 130 history > myHiastory03.txt
