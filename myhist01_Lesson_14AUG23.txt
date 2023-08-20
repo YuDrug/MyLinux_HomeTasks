@@ -1,0 +1,55 @@
+   0 cd /
+   1 mkdir /home/user
+   2 mkdir /home/user/start
+   3 touch /home/user/start/1.txt
+   4 cd /home/user/start/
+   5 touch "Hello Start" > 1.txt
+   6 cat 1.txt
+   7 echo  "Hello Start" > 1.txt
+   8 cat 1.txt
+   9 date 
+  10 date > 1.txt
+  11 cat 1.txt
+  12 cd /
+  13 mkdir /opt/task
+  14 mv /home/user/start/1.txt /opt/task/start.txt
+  15 cd /opt/task/
+  16 cat start.txt
+  17 cd /
+  18 ls -al
+  19 df -h
+  20 df -h > /opt/task/start.txt
+  21 cat /opt/task/start.txt
+  22 mkdir /tmp/testnew
+  23 cp --help
+  24 cp -R /opt/task/ /tmp/testnew/
+  25 cd /tmp/testnew/
+  26 ls -a
+  27 cd /task
+  28 cd task
+  29 ls -a
+  30 cat start.txt
+  31 cd /
+  32 ls -a
+  33 cd /home/
+  34 ls -a
+  35 cd user
+  36 ls -a
+  37 cd start
+  38 ls -a
+  39 cd /
+  40 ls -a
+  41 cat .ash_history > /tmp/testnew/start.txt
+  42 cat /tmp/testnew/start.txt
+  43 rm -rf /opt/task/
+  44 history
+  45 export_file myHistory.txt
+  46 export_file > myHistory.txt
+  47 date >> /tmp/testnew/start.txt
+  48 cat /tmp/testnew/start.txt
+  49 history
+  50 export_file > myHistory.txt
+  51 export_file history > myHistory.txt
+  52 history
+  53 ls -a
+  54 history > myhist01.txt
